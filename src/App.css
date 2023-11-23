@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800s;1,900&display=swap');
+
+ 
+body {
+  background-image: url('assets/fundoo.jpg');
+  background-repea {
+    mat: no-repeat;
+  background-size: cover;
+  font-family: '', ;
+  }
+}
+ 
+.App {
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: #0c0e0d; /* Cor de ouro pálido como cor de fundo */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ 
+h1 {
+  color: #0000ff; /* Azul escuro médio */
+}
+ 
+div {
+  margin-bottom: 10px;
+}
+ 
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(107, 83, 47); /* Verde oliva escuro */
+}
+ 
+input {
+  width: calc(100% - 16px);
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px solid #8b4513; /* Marrom escuro */
+  border-radius: 4px;
+}
+ 
+button {
+  background-color: #cd853f; /* Marrom claro */
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+ 
+button:hover {
+  background-color: #a0522d; /* Marrom mais escuro ao passar o mouse */
+}
+ 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ 
+li {
+  border: 1px solid #696969; /* Cinza escuro */
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #d3d3d3; /* Cinza claro para os itens da lista */
+  border-radius: 4px;
+}
+ 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+ 
